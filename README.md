@@ -50,7 +50,7 @@ shinyApp(ui, server)
 ```
 You can also use the demo app to build and manage your custom databases by running;
 ```
-shinySQLite::runExample(dbname = '')
+shinySQLite::runExample(example = 'app.R')
 ```
 It is easy to call ```data.tools``` functions in your shinyapp! 
 ```dataentryui``` is a shiny UI element where all data.tools outputs and inputs are rendered. The arguments to be considered in this function are the title and your additional tabItem (```analysistab```). See the documentation for more info.
