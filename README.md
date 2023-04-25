@@ -9,7 +9,7 @@ output: html_document
 
 data.tools enables you to create, upload, edit, analyze, store and share datasets in SQLite databases and other storage tools directly from shiny app. To install this package from GitHub run;
 ```
-devtools::install_github('drjhansi/data.tools')
+devtools::install_github('drj0954/data.tools')
 ```
 
 ## Using data.tools!
