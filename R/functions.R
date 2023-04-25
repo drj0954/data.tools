@@ -5438,7 +5438,7 @@ dataentryui<-function (title,analysistab){
 #'
 #' Quickly launch example app
 #'
-#' @examples runExample(example)
+#' @examples runExample(example = "app.R")
 #'
 
 #'        See \link{https://github.com/nasilabednego/shinySQLite} for more information.
@@ -5467,6 +5467,16 @@ runExample <- function(example) {
   appDir <- system.file("shiny-examples", example, package = "shinySQLite")
   shiny:::runApp(appDir, display.mode = "normal")
 }
+#' to_scalar
+#'
+#' Stringify vectors or elements of length greater than 1
+#'
+#' to_scalar(x = c(1,2,3))
+#'
+#' to_scalar(x = names(mtcars))
+#'
+#' @export
+
 
 to_scalar <-function(x){
   if(length(x)>1){
