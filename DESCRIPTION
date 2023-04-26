@@ -2,7 +2,7 @@ Package: data.tools
 Type: Package
 Title: Database management and analytic tools
 Version: 0.1.0
-Author: Dr Jhansi Chengala, Abednego Nasila
+Author: Dr Jhansi Chengala
 Maintainer: The package maintainer <drjhansi707@gmail.com>
 Description: Interacteractive tools for recording, cleaning, analysing, storing and sharing data.
 License: MIT license
